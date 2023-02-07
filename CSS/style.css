@@ -1,0 +1,370 @@
+html,
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+    height: 100%;
+}
+
+.indextopContainer {
+    height: 100%;
+    background-color: #FFB5BF;
+   
+   
+    }
+    
+.topContainer {
+    height: 60%;
+    background-color: #FFFFFF;
+
+}
+.navBar {
+    width: auto;
+    text-align: center;
+
+}
+
+.navText {
+    display: inline-block;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 	1.125rem;
+    text-decoration: none;
+    color: #80343E;
+
+}
+
+.projectTitle {
+    width: auto;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 2.188rem;
+    color: #80343E;
+}
+.imShyniqua {
+    width: auto;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Sacramento', cursive;
+    font-size: 2.188rem;
+    color: #80343E;
+}
+
+.subHeading {
+    width: auto;
+    text-align: center;
+   
+
+
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #80343E;
+
+}
+
+.buttons {
+    width: auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+
+}
+
+.button {
+    font-size:15px;
+    font-family:'Montserrat', sans-serif;
+    width:120px;
+    height:45px;
+    border-width:1px;
+    color: #80343E;
+    border-color:#80343E;
+    border-radius: 6px;
+    background:#FFFFFF;
+    transition: all 0.5s;
+    cursor: pointer;
+   
+    
+
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+.button2{
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+    width:120px;
+    height:45px;
+    border-width:1px;
+    color:#FFFFFF;
+    border-color:#80343E;
+    border-radius: 6px;
+    background:#80343E;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+}
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .buttonDiv {
+    width: auto;
+    text-align: center;
+  }
+
+  .downloadButton {
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+    width: 180px;
+    height:45px;
+    border-width:1px;
+    color:#FFFFFF;
+    border-color:#80343E;
+    border-radius: 6px;
+    background:#80343E;
+    transition: all 0.5s;
+    cursor: pointer;
+  
+
+  }
+
+  .downloadButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .downloadButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .downloadButton:hover span {
+    padding-right: 25px;
+  }
+  
+  .downloadButton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.cloud {
+    position: relative;
+    left: 10%;
+    top: 20%;
+
+}
+
+.cloud2 {
+    position: relative;
+    bottom: 300px;
+
+
+}
+
+.cloud3 {
+    position: relative;
+    left: 700px;
+    bottom: 200px;
+
+
+}
+
+.cloud4 {
+    position: relative;
+    left: 650px;
+    top: 90px;
+
+}
+
+.indexmiddleContainer {
+    background-color: #FFFFFF;
+   
+}
+
+.middleContainer {
+    background-color: #FFFFFF;
+    
+
+}
+
+.resumeDiv {
+    width: auto;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 4%;
+}
+.resumeIMG {
+    width: 55%;
+
+}
+.imgDiv {
+    width: auto;
+    text-align: center;
+    
+}
+.triqueIMG {
+    width: 25%;
+    padding-top: 5%;
+
+}
+.caseTitle {
+    width: auto;
+    text-align: center;
+}
+.aboutME {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+h2 {
+    color: #80343E;
+    font-family:'Montserrat', sans-serif;
+}
+
+.picDiv {
+    width: auto;
+    text-align: center;
+}
+
+.profileImg {
+    border-radius: 100%;
+    width: 250px;
+}
+
+.aboutTitle {
+    width: auto;
+    text-align: center;
+}
+
+h4 {
+    color: #80343E;
+    font-family:'Montserrat', sans-serif;
+}
+
+.aboutBio{
+   
+    text-align: center;
+
+}
+
+p {
+    color: #80343E;
+    font-family:'Montserrat', sans-serif;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 2%;
+
+}
+
+.thirdContainer {
+    background-color: #F6F4F4;
+}
+
+.fourthContainer {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    width: auto;
+    text-align: center;
+    padding-top: 9%;
+}
+.contactButton {
+    font-size:15px;
+    font-family: 'Montserrat', sans-serif;
+    width:150px;
+    height:45px;
+    border-width:1px;
+    color:#FFFFFF;
+    border-color:#80343E;
+    border-radius: 6px;
+    background:#80343E;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.contactButton span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .contactButton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .contactButton:hover span {
+    padding-right: 25px;
+  }
+  
+  .contactButton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  h5 {
+    color: #80343E;
+    font-family:'Montserrat', sans-serif;
+  }
